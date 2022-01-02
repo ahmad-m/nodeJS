@@ -1,0 +1,25 @@
+{
+  "name": "crud-app",
+  "version": "1.0.0",
+  "description": "This is nodejs+Express+MongoDB CRUD API Application.",
+  "main": "app.js",
+  "scripts": {
+    "start-dev": "nodemon app.js"
+  },
+  "author": "Jawed",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/joi": "^17.1.1",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongodb": "^3.6.9",
+    "mongoose": "^5.13.0"
+  },
+  "devDependencies": {
+    "dotenv": "^10.0.0",
+    "nodemon": "^2.0.9"
+  }
+}
